@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200;300;400;500;600;700&family=Poppins:wght@400;700&display=swap");
+body {
+  background-color: whitesmoke;
+  margin: 0;
+  font-family: poppins;
+}
+
+.nabar {
+  background-color: gray;
+  padding: 1em;
+}
+
+.logo {
+  text-decoration: none;
+  font-weight: bolder;
+  color: black;
+  font-size: 1.2em;
+}
+.logo span {
+  color: blue;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero .container {
+  display: flex;
+  background-color: black;
+}
+.hero .container .titel h1 {
+  margin-bottom: 15px;
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+  font-weight: 200;
+  font-style: italic;
+  letter-spacing: 18px;
+}
+.hero .container .OnderTXT {
+  margin: 0px;
+  font-family: "Crimson Text", serif;
+  font-size: 36px;
+  font-style: italic;
+  letter-spacing: 6px;
+  color: #989898;
+}
+.hero .container .line {
+  margin-bottom: 20px;
+  height: 40px;
+  width: 40px;
+  border-bottom: 2px solid #d78e38;
+}
+.hero .container .date {
+  margin: 0;
+  font-family: "Crimson Text", serif;
+  font-size: 24px;
+  font-style: normal;
+  letter-spacing: 4px;
+  color: white;
+}
+.hero .container .hero img {
+  margin: 2em;
+  width: 70%;
+}
+
+.history {
+  display: flex;
+  margin: 0 auto;
+  background-color: gray;
+  flex-direction: row;
+}
+
+.TXT {
+  flex: 1.5;
+  margin-top: 20px;
+}
+
+.TXT h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 45px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 4px;
+  margin-bottom: 45px;
+}
+
+.DeTxt {
+  font-family: "Lora", serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 180%;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.Quote {
+  flex: 1;
+  height: 1020px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.historyQ {
+  margin-top: 220px;
+  padding-left: 100px;
+}
+
+.INquote {
+  margin: 0;
+  color: red;
+  font-family: "Playfair Display", serif;
+  font-size: 24px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 160%;
+}
+
+.writer {
+  margin-top: 20px;
+  color: #000000;
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
+  font-weight: 200;
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+.features-section {
+  display: flex;
+  background-color: #000000;
+}
+
+.gratitude {
+  color: red;
+  text-align: right;
+  margin-left: 40em;
+}/*# sourceMappingURL=main.css.map */
